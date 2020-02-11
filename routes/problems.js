@@ -12,7 +12,7 @@ router.get('/', async (req, res) => {
     }
 });
 
-// Get one list
+// Get one list (error here)
 router.get('/:id', getProblem, (req, res) => {
     res.json(res.problem);
 });
