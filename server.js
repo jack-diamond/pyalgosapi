@@ -14,4 +14,4 @@ app.use(express.json());
 const problemsRouter = require('./routes/problems');
 app.use('/problems', problemsRouter);
 
-app.listen(3000, () => console.log('Server started...'))
+app.listen(8000, () => console.log('Server started...'))

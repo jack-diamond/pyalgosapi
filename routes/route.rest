@@ -1,12 +1,12 @@
-GET http://localhost:3000/problems/
+GET http://localhost:8000/problems/
 
 ###
 
-GET http://localhost:3000/problems/5e42264641124618cb821aba
+GET http://localhost:8000/problems/5e42264641124618cb821aba
 
 ###
 
-POST http://localhost:3000/problems/
+POST http://localhost:8000/problems/
 Content-Type: application/json
 
 {
@@ -14,16 +14,188 @@ Content-Type: application/json
     "problems": 
     [
         {
-            "name": "Two Sum",
-            "link": "https://leetcode.com/problems/two-sum/"
+            "name": "Array",
+            "problems":
+            [
+                {
+                    "name": "Two Sum",
+                    "link": "https://leetcode.com/problems/two-sum/"
+                },
+                {
+                    "name": "Best Time to Buy and Sell Stock",
+                    "link": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/"
+                },
+                {
+                    "name": "Contains Duplicate",
+                    "link": "https://leetcode.com/problems/contains-duplicate/"
+                },
+                {
+                    "name": "Maximum Subarray",
+                    "link": "https://leetcode.com/problems/maximum-subarray/"
+                },
+                {
+                    "name": "Maximum Product Subarray",
+                    "link": "https://leetcode.com/problems/maximum-product-subarray/"
+                },
+                {
+                    "name": "Find Minimum in Rotated Sorted Array",
+                    "link": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/"
+                },
+                {
+                    "name": "Search in Rotated Sorted Array",
+                    "link": "https://leetcode.com/problems/search-in-rotated-sorted-array/"
+                },
+                {
+                    "name": "3Sum",
+                    "link": "https://leetcode.com/problems/3sum/"
+                },
+                {
+                    "name": "Container With Most Water",
+                    "link": "https://leetcode.com/problems/container-with-most-water/"
+                }
+            ]
         },
         {
-            "name": "Product of Array Except Self",
-            "link": "https://leetcode.com/problems/product-of-array-except-self/"
+            "name": "Binary",
+            "problems": 
+            [
+                {
+                    "name": "Sum of Two Integers",
+                    "link": "https://leetcode.com/problems/sum-of-two-integers/"
+                },
+                {
+                    "name": "Number of 1 Bits",
+                    "link": "https://leetcode.com/problems/number-of-1-bits/"
+                },
+                {
+                    "name": "Counting Bits",
+                    "link": "https://leetcode.com/problems/counting-bits/"
+                },
+                {
+                    "name": "Missing Number",
+                    "link": "https://leetcode.com/problems/missing-number/"
+                },
+                {
+                    "name": "Reverse Bits",
+                    "link": "https://leetcode.com/problems/reverse-bits/"
+                }
+            ]
+        },
+        {
+            "name": "Dynamic Programming",
+            "problems":
+            [
+                {
+                    "name": "Climbing Stairs",
+                    "link": "https://leetcode.com/problems/climbing-stairs/"
+                },
+                {
+                    "name": "Coin Change",
+                    "link": "https://leetcode.com/problems/coin-change/"
+                },
+                {
+                    "name": "Longest Increasing Subsequence",
+                    "link": "https://leetcode.com/problems/longest-increasing-subsequence/"
+                },
+                {
+                    "name": "Longest Common Subsequence",
+                    "link": "https://leetcode.com/problems/longest-common-subsequence/"
+                },
+                {
+                    "name": "Word Break Problem",
+                    "link": "https://leetcode.com/problems/word-break/"
+                },
+                {
+                    "name": "Combination Sum", 
+                    "link": "https://leetcode.com/problems/combination-sum-iv/"
+                },
+                {
+                    "name": "House Robber",
+                    "link": "https://leetcode.com/problems/house-robber/"
+                },
+                {
+                    "name": "House Robber II",
+                    "link": "https://leetcode.com/problems/house-robber-ii/"
+                },
+                {
+                    "name": "Decode Ways",
+                    "link": "https://leetcode.com/problems/decode-ways/"
+                },
+                {
+                    "name": "Unique Paths",
+                    "link": "https://leetcode.com/problems/unique-paths/"
+                },
+                {
+                    "name": "Jump Game",
+                    "link": "https://leetcode.com/problems/jump-game/"
+                }
+            ]
+        },
+        {
+            "name": "Graph",
+            "problems":
+            [
+                {
+                    "name": "Clone Graph",
+                    "link": "https://leetcode.com/problems/clone-graph/"
+                },
+                {
+                    "name": "Course Schedule",
+                    "link": "https://leetcode.com/problems/course-schedule/"
+                },
+                {
+                    "name": "Pacific Atlantic Water Flow",
+                    "link": "https://leetcode.com/problems/pacific-atlantic-water-flow/"
+                },
+                {
+                    "name": "Number of Islands",
+                    "link": "https://leetcode.com/problems/number-of-islands/"
+                },
+                {
+                    "name": "Longest Consecutive Sequence",
+                    "link": "https://leetcode.com/problems/longest-consecutive-sequence/"
+                },
+                {
+                    "name": "Alien Dictionary (Leetcode Premium)",
+                    "link": "https://leetcode.com/problems/alien-dictionary/"
+                },
+                {
+                    "name": "Graph Valid Tree (Leetcode Premium)",
+                    "link": "https://leetcode.com/problems/graph-valid-tree/"
+                },
+                {
+                    "name": "Number of Connected Components in an Undirected Graph (Leetcode Premium)",
+                    "link": "https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/"
+                }
+            ]
+        },
+        {
+            "name": "Interval",
+            "problems":
+            [
+                {
+                    "name": "Insert Interval",
+                    "link": "https://leetcode.com/problems/insert-interval/"
+                },
+                {
+                    "name": "Merge Intervals",
+                    "link": "https://leetcode.com/problems/merge-intervals/"
+                },
+                {
+                    "name": "Non-overlapping Intervals",
+                    "link": "https://leetcode.com/problems/non-overlapping-intervals/"
+                },
+                {
+                    "name": "Meeting Rooms (Leetcode Premium)",
+                    "link": "https://leetcode.com/problems/meeting-rooms/"
+                },
+                {
+                    "name": "Meeting Rooms II (Leetcode Premium)",
+                    "link": "https://leetcode.com/problems/meeting-rooms-ii/"
+                }    
+            ]
         }
     ]
-}
-
-### 
-
-DELETE http://localhost:3000/problems/5e42257b41124618cb821ab9
+}      
+###
+DELETE http://localhost:8000/problems/5e483d9305776cd4a3688be8
